@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1487466571742839047/egUOp-VMpzTx4Xtm3XIs3WAPkNRVief8Xvn5qepun6eYJ1O6VOM6MT-2ElUzhG2coyAa"
+WEBHOOK_URL = "[YOUR WEBHOOK HERE]"
 
 def send_to_discord(ip, user_agent, timestamp):
     payload = {
